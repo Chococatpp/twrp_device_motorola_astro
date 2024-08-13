@@ -28,7 +28,7 @@
 import /init.recovery.qcom_decrypt.rc
 
 on boot
-    start health-hal-2-1
+    start health-hal-2-0
     setprop sys.usb.config adb
 
 on fs

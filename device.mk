@@ -69,6 +69,10 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti.recovery \
     bootctrl.$(PRODUCT_PLATFORM).recovery
 
+# Health HAL
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0-impl.recovery
+
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
